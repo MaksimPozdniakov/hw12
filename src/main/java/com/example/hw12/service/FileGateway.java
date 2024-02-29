@@ -1,4 +1,4 @@
-package com.example.hw6.service;
+package com.example.hw12.service;
 
 import org.springframework.integration.annotation.MessagingGateway;
 import org.springframework.integration.file.FileHeaders;

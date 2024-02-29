@@ -1,8 +1,8 @@
-package com.example.hw6;
+package com.example.hw12;
 
-import com.example.hw6.controller.NoteController;
-import com.example.hw6.domain.Note;
-import com.example.hw6.service.NoteService;
+import com.example.hw12.controller.NoteController;
+import com.example.hw12.domain.Note;
+import com.example.hw12.service.NoteService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

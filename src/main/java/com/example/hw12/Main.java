@@ -1,4 +1,4 @@
-package com.example.hw6;
+package com.example.hw12;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

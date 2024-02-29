@@ -1,9 +1,9 @@
-package com.example.hw6;
+package com.example.hw12;
 
 
-import com.example.hw6.domain.Note;
-import com.example.hw6.repository.NoteRepository;
-import com.example.hw6.service.NoteService;
+import com.example.hw12.domain.Note;
+import com.example.hw12.repository.NoteRepository;
+import com.example.hw12.service.NoteService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

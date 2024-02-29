@@ -1,4 +1,4 @@
-package com.example.hw6.configuration;
+package com.example.hw12.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,6 @@ import org.springframework.integration.core.GenericTransformer;
 import org.springframework.integration.file.FileWritingMessageHandler;
 import org.springframework.integration.file.support.FileExistsMode;
 import org.springframework.messaging.MessageChannel;
-
 import java.io.File;
 
 @Configuration

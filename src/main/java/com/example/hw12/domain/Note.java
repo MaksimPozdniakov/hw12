@@ -1,4 +1,4 @@
-package com.example.hw6.domain;
+package com.example.hw12.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,9 +1,9 @@
-package com.example.hw6.controller;
+package com.example.hw12.controller;
 
-import com.example.hw6.domain.Note;
-import com.example.hw6.domain.NoteFactory;
-import com.example.hw6.service.FileGateway;
-import com.example.hw6.service.NoteService;
+import com.example.hw12.domain.Note;
+import com.example.hw12.domain.NoteFactory;
+import com.example.hw12.service.FileGateway;
+import com.example.hw12.service.NoteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

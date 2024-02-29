@@ -1,7 +1,7 @@
-package com.example.hw6.service;
+package com.example.hw12.service;
 
-import com.example.hw6.domain.Note;
-import com.example.hw6.repository.NoteRepository;
+import com.example.hw12.domain.Note;
+import com.example.hw12.repository.NoteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.util.List;
