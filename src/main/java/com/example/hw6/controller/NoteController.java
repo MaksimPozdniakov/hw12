@@ -1,6 +1,7 @@
 package com.example.hw6.controller;
 
 import com.example.hw6.domain.Note;
+import com.example.hw6.domain.NoteFactory;
 import com.example.hw6.service.FileGateway;
 import com.example.hw6.service.NoteService;
 import lombok.RequiredArgsConstructor;
@@ -18,6 +19,8 @@ public class NoteController {
 
     private final NoteService noteService;
     private final FileGateway fileGateway;
+    private final NoteFactory noteFactory;
+
 
     /**
      * Метод получения всех заметок
@@ -31,11 +34,11 @@ public class NoteController {
 
     /**
      * Метод создания новой заметки
-     * @param note объект заметки
      * @return возвращаем объект заметки
      */
     @PostMapping
     public ResponseEntity<Note> createNote(@RequestBody Note note) {
+        note = noteFactory.createNote(note.getTitle(), note.getDescription()); // Используем фабричный метод
         fileGateway.writeToFile(note.getTitle() + ".txt", note + " - Заметка создана!");
         return new ResponseEntity<>(noteService.createNote(note), HttpStatus.OK);
     }
